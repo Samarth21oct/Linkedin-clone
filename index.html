@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Clone</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+                                     <!-- Navigation code  -->
+    <div class="navbar">
+        <div class="search">
+            <i class="fa-brands fa-linkedin" style="margin-right: 10px;"></i>
+            <input id="search" type="text" placeholder="Search" style="border: none;"/>
+        </div>
+        <div class="menu">
+            <div class="icon">
+                <i class="fa-solid fa-house-chimney"></i>
+                <a href="">Home</a>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-user-group"></i>
+                <a href="">My Network</a>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-briefcase"></i>
+                <a href="">Jobs</a>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-comment-dots"></i>
+                <a href="">Messaging</a>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-bell"></i>
+                <a href="">Notification</a>
+            </div>
+            <div class="icon">
+                <img src="image.png" alt="profile photo"/>
+                <a href="">Home</a>
+            </div>
+        </div>
+        <div class="explore">
+            <div class="icon1">
+                <i class="fa-solid fa-grip"></i>
+                <a href="">For Business</a>
+            </div>
+        </div>
+    </div>
+    
+    <!--                                 Main body content part                                 -->
+    <div class="content">
+        <!--                             Left Sidebar                                           -->
+        <div class="left_sidebar">
+            <!--                         profile card on Left Sidebar                           -->
+            <div class="profile_card">
+                <div class="top">
+                    <img class="img1" src="banner.jpeg" alt="Banner"/>
+                    <img class="img2" src="image.png" alt="Profile Photo">
+                    <div class="card_content">Samarth V Dwivedi</div>
+                    <p class="desc">Jee Mains and Advanced 2023 |Learning Cloud computing☁️ | Web Development | Skilled in C,C++,Python,SQL | Newbie at leetcode</p>
+                    <div style="color:#00000099"><hr></div>
+                </div>
+                <div class="line">
+                    <button>
+                        <p style="color: rgb(94, 92, 92);">Profile Viewers</p>
+                        <a href="#" style="text-decoration: none;color: blue;">508</a>
+                    </button>
+                    <button>
+                        <p style="color: rgb(94, 92, 92);">Post impressions</p>
+                        <a href="#" style="text-decoration: none;color: blue;">218</a>
+                    </button>
+                </div><hr>
+                <div class="bottom">
+                    <button><i class="fa-solid fa-bookmark"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Saved Items</button>
+                </div>
+            </div>
+            <!--                             Recent Card in Left Sidebar                     -->
+            <div class="recent_card">
+                <div class="rec" style="display: flex;">
+                    <h2 style="font-size: 12px;margin:15px 10px 5px 10px;color: rgb(84, 82, 82);">Recent</h2><br>
+                    <button ><i class="fa-solid fa-angle-up"></i></button>
+                </div>
+                <div class="recent">
+                    <button><i class="fa-solid fa-users-line"></i> Javascript Type script </button>
+                    <button><i class="fa-solid fa-users-line"></i> Javascript </button>
+                    <button><i class="fa-solid fa-users-line"></i> Data Science & AI-ML</button>
+                    <button><i class="fa-solid fa-users-line"></i> Cloud Computing </button>
+                    <button><i class="fa-solid fa-users-line"></i> My SQL </button>
+                    <button><i class="fa-solid fa-users-line"></i> Blockchain &Cloud  </button><hr>
+                </div>
+                <h2 style="font-size: 12px;margin:15px 10px 5px 10px;"><a href="#" style="text-decoration: none;color:#0a66c2">Groups</a></h2>
+                <div class="recent">
+                    <button><i class="fa-solid fa-users-line"></i> Javascript Type script </button>
+                    <button><i class="fa-solid fa-users-line"></i> Javascript </button>
+                    <button><i class="fa-solid fa-users-line"></i> Data Science & AI-ML</button>
+                    <button><i class="fa-solid fa-users-line"></i> Cloud Computing </button>
+                    <button><i class="fa-solid fa-users-line"></i> My SQL </button>
+                    <hr>
+                </div>
+                <div class="rec" style="display: flex;">
+                    <h2 style="font-size: 12px;margin:15px 10px 5px 10px;"><a href="#" style="color:#0a66c2;text-decoration: none;">Events</a></h2><br>
+                    <button ><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="rec1" style="display: flex;">
+                    <h2 style="font-size: 12px;margin:15px 10px 5px 10px;"><a href="#" style="color:#0a66c2;text-decoration: none;">Followed Hashtags</a></h2><br>
+                    <button ><i class="fa-solid fa-plus"></i></button>
+                </div><br>
+            </div>
+        </div>
+        
+        
+        <!--                          Main Content part of the page                          -->
+        <div class="main">
+            <div class="post">
+                <div class="header">
+                    <img src="image.png" alt="Profile Photo" />
+                    <input type="text" placeholder="Start a Post">
+                    <div class="post_icon">
+                        <button style="color: #376FE9;"><i class="fa-solid fa-image"></i> Media</button>
+                        <button style="color: #C37D16;"><i class="fa-solid fa-calendar-days"></i> Events</button>
+                        <button style="color: #E06847;"><i class="fa-solid fa-newspaper"></i>  Write Article</button>
+                    </div>
+                </div>
+            </div>
+                   <!--               Main content Post section                                -->
+            <div class="posted">
+                <div class="info">
+                    <img src="man3.avif" alt="profile"/>
+                    <div class="describe">XYZ Name<br>60K+ @LinkedIn 🚀| Ex-Intern @Flipkart 🚩| Ex-Apprentice @Go..<br>1w • 
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="option">
+                        <button class="dot"><i class="fa-solid fa-grip-lines"></i></button>
+                        <button class="cross"><i class="fa-solid fa-xmark"></i></button>
+
+                    </div>
+                </div>
+                <div class="para">
+                    <p> We're expanding our team and looking for professionals with expertise in cloud computing and a deep understanding of Kubernetes. As we navigate the digital transformation, cloud computing has become a critical component of business infrastructure. It offers scalability, flexibility, and cost-effectiveness. <br>
+                        Professionals skilled in Kubernetes, an open-source platform designed to automate deploying, scaling, and managing containerized applications, are particularly in demand. Kubernetes simplifies the management of cloud resources.
+                        <a href="#">#CloudComputing #Kubernetes #Hiring</a></p>
+                </div>
+                <div class="im"><img src="hiring.gif" alt="Image Post"/></div>
+                <hr>
+                <div class="follow">
+                    <button class="Like"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+                    <button class="Comment"><i class="fa-regular fa-comment-dots"></i> Comment</button>
+                    <button class="Repost"><i class="fa-solid fa-rotate"></i> Repost</button>
+                    <button class="Send"><i class="fa-solid fa-paper-plane"></i> Send</button>
+                </div>
+            </div>
+            <div class="posted">
+                <div class="info">
+                    <img src="man2.jpg" alt="profile"/>
+                    <div class="describe">XYZ Name<br>Field Service Delivery Operations Coordinator @ Pome...<br>
+                        1d • <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="option">
+                        <button class="dot"><i class="fa-solid fa-grip-lines"></i></button>
+                        <button class="cross"><i class="fa-solid fa-xmark"></i></button>
+
+                    </div>
+                </div>
+                <div class="para">
+                    <p> In the ever-evolving landscape of technology, adaptability is key. Recently, I completed a course on Machine Learning, and it's fascinating to see how AI is shaping our world. From predictive analytics to personalized recommendations, the applications are endless.<br>
+                        As professionals, continuous learning isn't just a skill, it's a necessity. I encourage everyone to explore a new topic in tech this month. Let's keep growing, innovating, and embracing change together.<br>
+                        <a href="#">#Tech #MachineLearning #ContinuousLearning #Innovation</a>
+                        </p>
+                </div>
+                <div class="im"><img src="project.avif" alt="Image Post"/></div>
+                <hr>
+                <div class="follow">
+                    <button class="Like"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+                    <button class="Comment"><i class="fa-regular fa-comment-dots"></i> Comment</button>
+                    <button class="Repost"><i class="fa-solid fa-rotate"></i> Repost</button>
+                    <button class="Send"><i class="fa-solid fa-paper-plane"></i> Send</button>
+                </div>
+            </div>
+            <div class="posted">
+                <div class="info">
+                    <img src="man.png" alt="profile"/>
+                    <div class="describe">XYZ Name<br>IT Services and IT ConsultingIT Services and IT Consulting<br>
+                        5d • <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="option">
+                        <button class="dot"><i class="fa-solid fa-grip-lines"></i></button>
+                        <button class="cross"><i class="fa-solid fa-xmark"></i></button>
+
+                    </div>
+                </div>
+                <div class="para">
+                    <p> Quantum computing, leveraging quantum mechanics principles, promises exponential processing power, potentially revolutionizing fields like cryptography, material science, and AI. Unlike traditional computers that use bits (0s and 1s), quantum computers use quantum bits or "qubits", which can be both 0 and 1 simultaneously, thanks to superposition. This allows quantum computers to process numerous possibilities at once. However, building a practical quantum computer is challenging due to "decoherence", where qubits are easily disturbed. Despite this, companies like IBM, Google, and Microsoft are heavily investing in quantum research, pushing the boundaries of what's possible.<br>
+
+                        <a href="#">#QuantumComputing #FutureTech #Innovation</a>
+                        </p>
+                </div>
+                <div class="im"><img src="project2.avif" alt="Image Post"/></div>
+                <hr>
+                <div class="follow">
+                    <button class="Like"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+                    <button class="Comment"><i class="fa-regular fa-comment-dots"></i> Comment</button>
+                    <button class="Repost"><i class="fa-solid fa-rotate"></i> Repost</button>
+                    <button class="Send"><i class="fa-solid fa-paper-plane"></i> Send</button>
+                </div>
+            </div>
+        </div>
+        
+        <!--                       Right Sidebar                                       -->
+        <div class="right_sidebar">
+            <!--                 News section of Right Sidebar                         -->
+            <div class="news">
+                <div class="nhead">
+                    <div class="nhead1">
+                        <h3 style="font-size: 23px;font-weight: 500;">LinkedIn News</h3>
+                        <i class="fa-solid fa-circle-info"></i>
+                    </div>
+                    <h5 style="color:rgb(84, 82, 82);">Top stories</h5>
+                </div><hr>
+                <div class="nmid">
+                    <button><p>Logistics goes local</p>5h ago • 3,593 readers</button>
+                    <button><p>E-commerce sees jobs boom</p>5h ago • 9,203 readers</button>
+                    <button><p>How data powers quick commerce</p>5h ago • 4,497 readers</button>
+                    <button><p>Reimagining influencer marketing</p>5h ago • 3,819 readers </button>
+                    <button><p>New $200M-fund launched</p>5h ago • 8,571 readers</button>
+                </div><hr>
+                <div class="nbot">
+                    <button>Show more</button>
+                </div>
+            </div>
+            <!--                         Advertisement Section of Right sidebar                    -->
+            <div class="advertisement">
+                <img src="add.png" alt="Addvertisement">
+                <p>Made by<i class="fa-solid fa-pen"></i>-Samarth V Dwivedi<br>
+                    <i class="fa-brands fa-linkedin"></i><a href="#">  Linkedin Handel</a><br>
+                    <i class="fa-brands fa-instagram"></i><a href="#">  Instagram Handel</a><br>
+                    <i class="fa-brands fa-github"></i><a href="#">  Github Handel</a><br>
+                    <i class="fa-solid fa-envelope"></i> Samarthdwivedi21@gmail.com
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

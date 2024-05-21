@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins',sans-serif;
+}
+body{
+    background-color: #F8F3EB;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFF;
+}
+.menu{
+    display: flex;
+}
+.icon i:hover{
+    color:black;
+}
+.icon:hover a{
+    color:black;
+}
+.icon{
+    width:100px;
+    margin-right: 5px; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.icon:hover {
+    border-bottom: 3px solid black;
+}
+.icon1:hover {
+    border-bottom: 3px solid black;
+}
+.icon img{
+    height: 28px;
+    width: 26.5px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.icon i{
+    font-size: larger;
+    color: rgb(94, 92, 92);
+}
+.icon a{
+    text-decoration: none;
+    color: rgb(94, 92, 92);
+}
+.search i{
+    font-size: 45px;
+    color: #0a66c2;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 35px;
+    width: 280px;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: #EDF3F8;
+}
+.icon1{
+    width:100px;
+    height:61px;
+    position: relative;
+    right: 130px;
+    padding: 0px 0px 0px 8px;
+    border-left: 2px solid rgb(94, 92, 92);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon1 i{
+    font-size: larger;
+    color: rgb(94, 92, 92);
+}
+.icon1 a{
+    text-decoration: none;
+    color: rgb(94, 92, 92);
+}
+
+
+
+.content{
+    display: flex;
+    margin:25px 200px 0px 200px;
+}
+.left_sidebar{
+    height: 200vh;
+    width: 225px;
+}
+.main{
+    height: 330vh;
+    width: 555px;
+    margin: 0px 20px 0px 20px;
+}
+
+.profile_card{
+    height: 346px;
+    width: 200px;
+    margin:7px 4px 4px 4px;
+    border-radius: 3%;
+    border: 3px solid #daceba;
+    background-color: white;
+}
+.card_content{
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    font-weight: bold;
+}
+.profile_card .img1{
+    height: 60px;
+    width: 200px;
+    border-top-right-radius: 6%;
+    border-top-left-radius: 6%;
+    background-size: cover;
+}
+.profile_card .img2{
+    position:relative;
+    bottom: 40px;
+    left: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border:3px solid white;
+    background-size: cover;
+}
+.desc{
+    position: relative;
+    bottom: 18px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #00000099;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+}
+.line button{
+    height: 20px;
+    width: 200px;
+    padding-left: 4px;
+    padding-right: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6px 0px 2px 0px;
+    background-color: white;
+    border: 1px solid white;
+}
+.line button:hover{
+    background-color: rgb(228, 228, 228);
+    color: black;
+}
+
+.bottom button{
+    height: 41px;
+    width: 200px;
+    margin: 0px 6px 4px 0px;
+    font-size: 16px;
+    color:rgb(84, 82, 82);
+    background-color: white;
+    border: 1px solid white;
+}
+.bottom button:hover{
+    background-color: rgb(228, 228, 228);
+    color: black;
+}
+.recent_card{
+    height: 550px;
+    width: 200px;
+    background-color: #FFFF;
+    border: 2px solid red;
+    margin:7px 4px 4px 4px;
+    border-radius: 3%;
+    border: 3px solid #daceba;
+}
+.rec button{
+    position: relative;
+    left: 100px;
+    font-size: small;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+}
+.rec button:hover{
+    background-color: rgb(228, 228, 228);
+}
+.recent_card .recent{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    color: rgb(84, 82, 82);
+}
+.recent_card .recent button{
+    height: 33px;
+    text-align: left;
+    padding-left: 8px;
+    background-color: white;
+    border: 1px solid white;
+    color:rgb(84, 82, 82);
+}
+.recent_card .recent button:hover{
+    background-color: rgb(228, 228, 228);
+    color: black;
+}
+.rec1 button{
+    position: relative;
+    left: 30px;
+    font-size: small;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+}
+.rec1 button:hover{
+    background-color: rgb(228, 228, 228);
+}
+.header{
+    width: 545px;
+    background-color: white;
+    height: 116px;
+    margin:7px 4px 4px 4px;
+    border-radius: 3%;
+    border:3px solid #daceba;
+}
+.header img{
+    height:48px;
+    width: 48px;
+    border-radius: 50%;
+    margin: 10px 0px 0px 20px;
+}
+.header input{
+    position: relative;
+    bottom: 18px;
+    height: 48px;
+    width: 400px;
+    font-size: 14px;
+    padding-left: 30px;
+    border-top-left-radius: 35px !important;
+    border-top-right-radius: 35px !important;
+    border-bottom-right-radius: 35px !important;
+    border-bottom-left-radius: 35px !important;
+}
+
+.post_icon{
+    position: relative;
+    bottom: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.post_icon button{
+    padding: 6px 5px 6px 5px;
+    background-color: white;
+    border:2px solid white;
+}
+.post_icon i{
+    font-size: 18px;
+}
+.post_icon button:hover{
+    background-color:rgb(243, 243, 243);
+}
+.describe{
+    font-size: small;
+}
+
+.posted{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+    margin:10px 4px 5px 4px;
+    width: 545px;
+    height: 700px;
+    background-color: white;
+    border: 3px solid #daceba;
+}
+.info{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin:7px 4px 4px 4px;
+    width: 530px;
+    height: 60px;
+}
+.info img{
+    height:48px;
+    width: 48px;
+    border-radius: 50%;
+    margin: 10px 0px 6px 20px;
+}
+.option button{
+    width: 34px;
+    height: 34px;
+    font-size: larger;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid white;
+}
+.option button:hover{
+    background-color: rgb(228, 228, 228);
+}
+.para{
+    margin:2px 4px 4px 4px;
+    width: 530px;
+    height: 225px;
+}
+.para p{
+    margin:8px 4px 4px 4px;
+    line-height: 25px;
+}
+.para p a{
+    text-decoration: none;
+    color: #0a66c2;
+}
+.im {
+    margin:2px 4px 4px 4px;
+    width: 530px;
+    height: 325px;
+}
+.im img{
+    margin:2px 4px 4px 4px;
+    width: 520px;
+    height: 315px;
+}
+.follow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:2px 4px 4px 4px;
+    width: 530px;
+    height: 50px;
+}
+.follow button{
+    font-size: 23px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid white;
+    color: rgb(94, 92, 92);
+    padding: 2px 10px 2px 10px;
+}
+.follow button:hover{
+    background-color: rgb(235, 235, 235);
+    color: gray;
+}
+
+
+
+.right_sidebar{
+    width: 300px;
+    height: 100vh;
+}
+.news{
+    margin: 4px 4px 4px 4px;
+    border-radius: 4%;
+    height:350px;
+    width:260px;
+    background-color: white;
+    border: 3px solid #daceba;
+}
+.nhead{
+    padding: 8px 8px 8px 15px;
+}
+.nhead1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.nmid{
+    padding: 8px 0px 8px 0px;
+}
+.nmid button{
+    width: 260px;
+    text-align: left;
+    padding: 2px 8px 2px 15px;
+    background-color: white;
+    border: 1px solid white;
+    line-height: 15px;
+}
+.nmid button:hover{
+    background-color: rgb(235, 235, 235);
+}
+.nmid button p{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.nbot button{
+    width: 90px;
+    margin: 8px 0px 0px 15px;
+    padding: 4px 8px 4px 8px;
+    font-size: 14px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10%;
+}
+.nbot button:hover{
+    background-color: rgb(235, 235, 235);
+}
+.advertisement{
+    margin: 6px 4px 4px 4px;
+    border-radius: 4%;
+    height:340px;
+    width:260px;
+    background-color: #fcf4e5;
+    border: 3px solid #daceba;
+}
+.advertisement img{
+    width: 260px;
+    background-size: cover;
+    border-radius: 4%;
+}
+.advertisement p{
+    text-align: center;
+    line-height: 23px;
+    color: rgb(99, 97, 97);
+}
+.advertisement i{
+    font-size: 20px;
+}
+.advertisement a{
+    text-decoration: none;
+    color: rgb(99, 97, 97);
+}
